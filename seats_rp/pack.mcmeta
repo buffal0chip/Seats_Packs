@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 45,
+    "supported_formats": [
+      0,
+      999
+    ],
+    "description": "Seats Resource Pack"
+  }
+}

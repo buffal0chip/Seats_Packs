@@ -1,0 +1,21 @@
+{
+    "parent": "entorais:recipes/root",
+    "criteria": {
+      "has_wooden_pickaxe_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:wooden_pickaxe"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_wooden_pickaxe_recipe"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "seats_dp:seat"
+      ]
+    }
+  }

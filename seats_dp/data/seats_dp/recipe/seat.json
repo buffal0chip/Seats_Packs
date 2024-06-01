@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "# ",
+    "##",
+    "//"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:warped_planks"
+      },
+      {
+        "item": "minecraft:spruce_planks"
+      },
+      {
+        "item": "minecraft:oak_planks"
+      },
+      {
+        "item": "minecraft:mangrove_planks"
+      },
+      {
+        "item": "minecraft:jungle_planks"
+      },
+      {
+        "item": "minecraft:dark_oak_planks"
+      },
+      {
+        "item": "minecraft:crimson_planks"
+      },
+      {
+        "item": "minecraft:cherry_planks"
+      },
+      {
+        "item": "minecraft:birch_planks"
+      },
+      {
+        "item": "minecraft:bamboo_planks"
+      },
+      {
+        "item": "minecraft:acacia_planks"
+      }
+    ],
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:armor_stand",
+    "count": 2,
+    "components": {
+      "minecraft:custom_model_data": 1,
+      "minecraft:item_name": "Seat",
+      "minecraft:max_stack_size": 64,
+      "minecraft:entity_data": {
+        "id": "minecraft:armor_stand",
+        "Tags": ["seat"],
+        "Invisible": 1
+      }
+    }
+  }
+}
