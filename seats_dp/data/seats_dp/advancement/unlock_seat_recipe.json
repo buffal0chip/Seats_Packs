@@ -1,5 +1,5 @@
 {
-    "parent": "entorais:recipes/root",
+    "parent": "minecraft:recipes/root",
     "criteria": {
       "has_wooden_pickaxe_recipe": {
         "trigger": "minecraft:recipe_unlocked",
